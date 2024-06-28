@@ -16,7 +16,7 @@ cloudinary.config({
   api_key: process.env.CLOUDINARY_API_KEY,
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
-
+console.log("test from olamilekan-1212")
 const app = express();
 app.use(express.json());
 // const allowedOrigins = ["http://example1.com", "http://example2.com"];
